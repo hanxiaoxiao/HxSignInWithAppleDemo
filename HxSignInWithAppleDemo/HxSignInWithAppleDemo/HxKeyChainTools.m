@@ -17,12 +17,12 @@ NSString * const KEY_PASSWORD = @"com.wanda.wealth.password";
 
 {
     //测试用 清除keychain中的内容
-//    [WDSDIDFVTools delete:KEY_USERNAME];
+//    [HxKeyChainTools delete:KEY_USERNAME];
     
     //读取账号中保存的内容
-    NSMutableDictionary *readUserDataDic = (NSMutableDictionary *)[HxKeyChainTools load:KEY_USERNAME];
-    if(readUserDataDic){
-        return [readUserDataDic objectForKey:KEY_PASSWORD];
+    NSString *userID = (NSString *)[HxKeyChainTools load:KEY_USERNAME];
+    if(userID){
+        return userID;
     }
   
     return nil;

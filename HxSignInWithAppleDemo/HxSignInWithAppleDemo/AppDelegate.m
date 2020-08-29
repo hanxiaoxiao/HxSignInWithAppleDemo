@@ -43,7 +43,7 @@
     // 基于用户的Apple ID 生成授权用户请求的机制
     ASAuthorizationAppleIDProvider *appleIDProvider = [ASAuthorizationAppleIDProvider new];
     // 注意 存储用户标识信息需要使用钥匙串来存储 这里使用NSUserDefaults 做的简单示例
-    NSString *userIdentifier = [[NSUserDefaults standardUserDefaults] valueForKey:@"ShareCurrentIdentifier"];
+    NSString* userIdentifier = [HxKeyChainTools getUserID];
     
     if (userIdentifier) {
         
