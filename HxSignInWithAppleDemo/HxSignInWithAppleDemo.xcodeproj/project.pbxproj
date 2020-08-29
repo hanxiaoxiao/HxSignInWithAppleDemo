@@ -296,7 +296,7 @@
 				CODE_SIGN_ENTITLEMENTS = HxSignInWithAppleDemo/HxSignInWithAppleDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WHU4Z8735K;
-				GCC_PREFIX_HEADER = /Users/hanxiao/Desktop/HxSignInWithAppleDemo/HxSignInWithAppleDemo/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HxSignInWithAppleDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = HxSignInWithAppleDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -315,7 +315,7 @@
 				CODE_SIGN_ENTITLEMENTS = HxSignInWithAppleDemo/HxSignInWithAppleDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WHU4Z8735K;
-				GCC_PREFIX_HEADER = /Users/hanxiao/Desktop/HxSignInWithAppleDemo/HxSignInWithAppleDemo/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HxSignInWithAppleDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = HxSignInWithAppleDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
